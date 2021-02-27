@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecole francophone</title>
+    <link rel="stylesheet" href="./public/css/ecole.css">
+
+</head>
+<body>
+    <h1 style="text-align: center;">Francais</h1>
+
+    <main class="main">
+        <p style="text-align: center;">TEST : Académie de musique de Beloeil</p>
+        <form class="form">
+            <label for="ecole">Cherche ?</label>
+            <input type="text" name="ecole" id="ecole" placeholder="..." value="Académie de musique de Beloeil">
+            <button class="btn">Valider</button>
+
+        </form>
+        <div class="row">
+    
+        </div>
+    </main>
+    <script src="./public/js/script.js"></script>
+
+    <script>
+        document.querySelector('.btn').addEventListener('click', (e) => {
+            e.preventDefault()
+        })
+    </script>
+</body>
+</html>
